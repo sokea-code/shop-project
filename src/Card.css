@@ -1,0 +1,77 @@
+.card {
+  border: 1px solid rgb(11, 147, 59); 
+  box-shadow: 1px 1px 5px rgb(43, 43, 136);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: 0.3s; 
+  flex-direction: column;
+  justify-content: space-between; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* gap: 1.5rem; */
+  width: 420px;
+  /* float: right; */
+}
+.imag {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+
+.cardimage {
+  width: 50px;
+  height: 50px;
+}
+
+.card p {
+  color: rgb(3, 79, 79);
+}
+
+.card h4,
+.card p {
+  margin: 0.5rem auto;
+}
+
+.card h2 {
+  text-decoration: underline;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px burlywood;
+  transform: scale(1.01);
+}
+
+.card-price-add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-item-btn,
+.remove-item-btn {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  display: block;
+  font-size: 1rem;
+  background-color: rgb(12, 73, 108);
+  color: rgb(10, 117, 119);
+  border: 2px solid rgb(15, 9, 123);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.remove-item-btn {
+  border-color: rgb(174, 39, 39);
+  color: rgb(174, 39, 39);
+}
+
+.add-item-btn:hover {
+  background-color: rgb(9, 85, 115); /* Slightly different color for hover effect */
+  color: rgb(7, 91, 111);
+}
+
+.remove-item-btn:hover {
+  background-color: rgb(174, 39, 39);
+  color: rgb(174, 39, 39);
+}
